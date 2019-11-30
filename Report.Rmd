@@ -1,6 +1,5 @@
 ---
-title: "Report"
-author: "Harsh Nagarkar"
+title: "Coffe Chain analysis Report"
 date: "11/29/2019"
 output: html_document
 ---
@@ -9,22 +8,87 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Analyzing Public coffee chains and their models for investment.
+###			Dunkin Donuts vs Starbucks
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+We started our coffee chain analysis research by first shortlisting top public chains who go head on.
+One of them was Starbucks Corporation formed in 1985 is a seattle based coffee company who has a huge internationally brand presence. It's competitor is DUNKIN’ BRANDS GROUP, INC. , also an Internation brand made up of two companies Dunkin Donuts and Baskins and Robins selling ice cream and donuts formed in 1980s and combined in one in 2002.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+1. In Order to understand this brands power of prensence in United staties lets see the state wise plot
 
-```{r cars}
-summary(cars)
+a. Starbucks
+
+```{r Starbuckscentroid}
+
 ```
 
-## Including Plots
+As we concer California has highest number main reason being it's closest highly populated state next to Seattle the birth place of Starbucks
 
-You can also embed plots, for example:
+Where is the maximum density?
+```{r StarbucksDesity}
 
-```{r pressure, echo=FALSE}
-plot(pressure)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+The average density of starbucks is ___ per mile.
+
+b. Dunkin Brand
+
+```{r DunkinCentroidboth}
+
+```
+
+As we concer California has highest number main reason being it's closest highly populated state next to Seattle the birth place of Starbucks
+
+Where is the maximum density?
+```{r DunkingDensity}
+
+```
+
+
+
+2. Lets visual and see the stock growth.
+
+a. Starbucks
+
+```{r Starbucksplot, echo=FALSE}
+```
+The Growth rate for starbucks is __
+
+b. Dunkin Donuts
+```{r Dunkinplot, echo=FALSE}
+```
+The Growth rate of Dunkin is __
+
+
+We can clearly  Stabucks is coming ahead as far as the growth rate is concerned. You can also see that starbucks had a stock split in 2015
+
+3. Finally revenues and store counts is key to conclude if we should invest in
+
+Lets investigate their business model and lets look how their profits and loss are being affected over the time.
+
+```{r StarbucksStore, echo=FALSE}
+```
+
+```{r StarbucksRevenues, echo=FALSE}
+```
+
+Points of disruption in revenues in Starbucks?  And why? 
+
+
+```{r DunkinStores, echo=FALSE}
+```
+
+```{r DunkinStoresRevenues, echo=FALSE}
+```
+
+Points of disruption in revenues in Dunkin Brand?  And why?
+
+We can see that Dunkin changed to full franchise modle in 20__ .
+We can see growth
+
+
+In Conclusion 
+
+
+
+
